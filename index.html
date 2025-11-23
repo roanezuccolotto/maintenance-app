@@ -166,8 +166,7 @@
     <script>
          // Fixed API configuration
         const SUPABASE_URL = 'https://efpmoypxntgswixpamhr.supabase.co';
-        const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVmcG1veXB4bnRnc3dpeHBhbWhyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM4NTAxODIsImV4cCI6MjA3OTQyNjE4Mn0.le83d2BHGBtzGgfBH-vUVsy0O84XUA3A09X6AT16nac_ltaNA7nnVozoSCOcZIjg';
-        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVmcG1veXB4bnRnc3dpeHBhbWhyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM4NTAxODIsImV4cCI6MjA3OTQyNjE4Mn0.le83d2BHGBtzGgfBH-vUVsy0O84XUA3A09X6AT16nac';        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
         async function login() {
             const email = document.getElementById('email').value;
